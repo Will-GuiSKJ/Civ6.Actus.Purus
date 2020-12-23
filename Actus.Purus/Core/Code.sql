@@ -63,15 +63,28 @@ UPDATE UnitUpgrades
 
 UPDATE UnitUpgrades
 	SET
+		UpgradeUnit = 'UNIT_BOMBARD'
+	WHERE
+		Unit = 'UNIT_KHMER_DOMREY';
+
+UPDATE UnitUpgrades
+	SET
 		UpgradeUnit = 'UNIT_CUIRASSIER'
 	WHERE
-		Unit = 'UNIT_INDIAN_VARU';
+		Unit = 'UNIT_INDIAN_VARU'
+		OR Unit = 'UNIT_POLISH_HUSSAR';
 
 UPDATE UnitUpgrades
 	SET
 		UpgradeUnit = 'UNIT_TANK'
 	WHERE
 		Unit = 'UNIT_AMERICAN_ROUGH_RIDER';
+
+UPDATE UnitUpgrades
+	SET
+		UpgradeUnit = 'UNIT_HELICOPTER'
+	WHERE
+		Unit = 'UNIT_CANADA_MOUNTIE';
 
 UPDATE Units
 	SET
@@ -86,11 +99,11 @@ UPDATE Units
 
 UPDATE Units
 	SET
-		BaseSightRange = 3,
-		BaseMoves = 4,
-		RangedCombat = 75,
-		Range = 1,
-		AntiAirCombat = 80
+		BaseSightRange = 3
+		,BaseMoves = 4
+		,RangedCombat = 75
+		,Range = 1
+		,AntiAirCombat = 80
 	WHERE
 		UnitType = 'UNIT_AIRCRAFT_CARRIER';
 
@@ -111,6 +124,40 @@ UPDATE Units
 		Cost = 30
 	WHERE
 		UnitType = 'UNIT_CREE_OKIHTCITAW';
+
+UPDATE Units
+	SET
+		Cost = 120
+		,Maintnance = 2
+	WHERE
+		UnitType = 'UNIT_NORWEGIAN_BERSERKER'
+		OR UnitType = 'UNIT_GEORGIAN_KHEVSURETI'
+		OR UnitType = 'UNIT_JAPANESE_SAMURAI';
+
+UPDATE Units
+	SET
+		Cost = 180
+	WHERE
+		UnitType = 'UNIT_KHMER_DOMREY';
+
+UPDATE Units
+	SET
+		Cost = 300
+	WHERE
+		UnitType = 'UNIT_FRENCH_GARDE_IMPERIALE'
+		OR UnitType = 'UNIT_ENGLISH_REDCOAT';
+
+UPDATE Units
+	SET
+		Cost = 330
+	WHERE
+		UnitType = 'UNIT_AMERICAN_ROUGH_RIDER';
+
+UPDATE Units
+	SET
+		Cost = 350
+	WHERE
+		UnitType = 'UNIT_CANADA_MOUNTIE';
 		
 INSERT INTO UnitReplaces (CivUniqueUnitType, ReplacesUnitType)
 	VALUES 

@@ -26,8 +26,12 @@ Unit Balances:
     - Upgrades to Cuirassier (instead of Tank)
  - Hourse Archer (Scythia)
     - Upgrades to Crossbow (instead of Field Cannon)
- - Rough Rider (America)
+ - Domrey (Khmer)
+   - Upgrades to Bombard (instead of Artillery)
+ - Rough Rider (America) &amp; Winged Hussar (Poland)
     - Upgrades to Tank (instead of Mordern Armor)
+ - Mountie (Canada)
+   - Upgrades to Helicoper (instead of nothing)
  - Hoplite (Greece)
     - Strength increased to 28
  - Okihtcitaw (Cree)
@@ -41,7 +45,8 @@ Unit Balances:
  - Removed Aerodome as a prereq for all air units
  - Lowered Nuclear Submarine combat down to 75
  - Boosted several stats for Air-Craft Carrier
- - Babylon unique unit replaces the Warrior</Description>
+ - Babylon unique unit replaces the Warrior
+ - Several unique units that didn't replace anything had their production cost reduced</Description>
     <Authors>William.Rosa</Authors>
     <SpecialThanks>
     </SpecialThanks>
