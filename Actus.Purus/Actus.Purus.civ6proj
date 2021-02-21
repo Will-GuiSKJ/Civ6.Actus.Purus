@@ -6,48 +6,9 @@
     <Guid>bfe0e24c-6873-4d6f-bfd5-dd649d45f0ed</Guid>
     <ProjectGuid>85681eec-5b51-4d0b-a090-1d880280eb65</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>A compilation of tweaks and changes to enhance Civ 6 experience</Teaser>
-    <Description>Start Bias:
-Japan (Coast 4)
-Arabia (Desert 5, Desert Hills 5)
-Egypt (Desert 5, Desert Hills 5)
-Norway (Coast 2, Coastal Resources 3-5, Forest 4, Tundra 5, Tundra Hills 5)
-Brazil (Coast 4)
-
-
-Civ Balances:
- - Norway
-    - Stave Church provides +2 Faith adjecency for forests (up from +1)
-    - Stave Church provides +2 Production for fishing boat improvements (up from +1)
-
- 
-Unit Balances:
- - Varu (India)
-    - Upgrades to Cuirassier (instead of Tank)
- - Hourse Archer (Scythia)
-    - Upgrades to Crossbow (instead of Field Cannon)
- - Domrey (Khmer)
-   - Upgrades to Bombard (instead of Artillery)
- - Rough Rider (America) &amp; Winged Hussar (Poland)
-    - Upgrades to Tank (instead of Mordern Armor)
- - Mountie (Canada)
-   - Upgrades to Helicoper (instead of nothing)
- - Hoplite (Greece)
-    - Strength increased to 28
- - Okihtcitaw (Cree)
-    - Cost down to 30
- - Air Units
-    - Removed Aerodome prereq
- - Nuclear Submarine
-    - Combat strength down to 75
- - Air-Craft Carrier
-    -  Improved stats and added Ranged Combat capability
- - Removed Aerodome as a prereq for all air units
- - Lowered Nuclear Submarine combat down to 75
- - Boosted several stats for Air-Craft Carrier
- - Babylon unique unit replaces the Warrior
- - Several unique units that didn't replace anything had their production cost reduced</Description>
-    <Authors>William.Rosa</Authors>
+    <Teaser>A compilation of tweaks and changes to enhance and balance your Civ 6 experience</Teaser>
+    <Description>A compilation of tweaks and changes to enhance and balance your Civ 6 experience[NEWLINE][NEWLINE]Start Bias:[NEWLINE]- Japan (Coast 4, Iron 5)[NEWLINE]- Arabia (Desert 5, Desert Hills 5, Iron 5)[NEWLINE]- Egypt (Desert 5, Desert Hills 5)[NEWLINE]- Norway (Coast 2, Coastal Resources 3-5, Forest 4, Tundra 5, Tundra Hills 5, Iron 5)[NEWLINE]- Brazil (Coast 4)[NEWLINE]- Byzantium (Iron 5)[NEWLINE]- Poland (Iron 5)[NEWLINE]- Macedon (Iron 5, Horses 5)[NEWLINE]- Georgia (Iron 5)[NEWLINE]- Kongo (Iron 5)[NEWLINE]- Rome (Iron 5)[NEWLINE]- Persia (Iron 5)[NEWLINE]- Gran Colombia (Horses 5)[NEWLINE]- Hungary (Horses 5)[NEWLINE]- Russia (Horses 5)[NEWLINE]- Ethiopia (Horses 5)[NEWLINE]- Netherlands (Niter 5)[NEWLINE]- England (Niter 5)[NEWLINE]- France (Niter 5)[NEWLINE]- Ottoman (Niter 5)[NEWLINE]- Spain (Niter 5)[NEWLINE]- Brazil (Coal 5)[NEWLINE][NEWLINE]Civ Balances:[NEWLINE]- Norway[NEWLINE] * Stave Church provides +2 Faith adjecency for forests (up from +1)[NEWLINE] * Stave Church provides +2 Production for fishing boat improvements (up from +1)[NEWLINE][NEWLINE]Unit Balances:[NEWLINE]- Varu (India)[NEWLINE] * Upgrades to Cuirassier (instead of Tank)[NEWLINE]- Hourse Archer (Scythia)[NEWLINE] * Upgrades to Crossbow (instead of Field Cannon)[NEWLINE]- Domrey (Khmer)[NEWLINE] * Upgrades to Bombard (instead of Artillery)[NEWLINE]- Rough Rider (America) and Winged Hussar (Poland)[NEWLINE] * Upgrades to Tank (instead of Mordern Armor)[NEWLINE]- Mountie (Canada)[NEWLINE] * Upgrades to Helicoper (instead of nothing)[NEWLINE]- Hoplite (Greece)[NEWLINE] * Strength increased to 28[NEWLINE]- Okihtcitaw (Cree)[NEWLINE] * Cost down to 30[NEWLINE]- Nuclear Submarine[NEWLINE] * Melee Combat strength down to 75[NEWLINE]- Air-Craft Carrier[NEWLINE] * Improved stats and added short Ranged Combat capability[NEWLINE]- Sabum Kibittum (Babylon)[NEWLINE] * Replaces Warrior[NEWLINE]- Removed Aerodome as a prereq for all air units[NEWLINE]- Several unique units that did not replace anything had their production cost reduced</Description>
+    <Authors>GuiSKJ</Authors>
     <SpecialThanks>
     </SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -61,6 +22,7 @@ Unit Balances:
     <AssemblyName>Actus.Purus</AssemblyName>
     <RootNamespace>Actus.Purus</RootNamespace>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="RunCode"><File>Core/Code.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions />]]></FrontEndActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
