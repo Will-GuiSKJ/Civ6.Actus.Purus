@@ -12,8 +12,8 @@ INSERT INTO StartBiasTerrains (CivilizationType, TerrainType, Tier)
 		,('CIVILIZATION_EGYPT', 'TERRAIN_DESERT', '5')
 		,('CIVILIZATION_EGYPT', 'TERRAIN_DESERT_HILLS', '5')
 		,('CIVILIZATION_NORWAY', 'TERRAIN_TUNDRA', '5')
-		,('CIVILIZATION_NORWAY', 'TERRAIN_TUNDRA_HILLS', '5'),
-		 ('CIVILIZATION_BRAZIL', 'TERRAIN_COAST', '4');
+		,('CIVILIZATION_NORWAY', 'TERRAIN_TUNDRA_HILLS', '5')
+		,('CIVILIZATION_BRAZIL', 'TERRAIN_COAST', '4');
 
 UPDATE StartBiasTerrains
 	SET
@@ -60,7 +60,7 @@ UPDATE StartBiasFeatures
 
 
 -- Leader Balances
---(Norway)
+-- (Norway)
 UPDATE ModifierArguments
 	SET
 		Value = '2'
